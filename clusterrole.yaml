@@ -5,8 +5,8 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: ns-reconciler-asm-ingress
-  namespace: config-management-system
+  namespace: kube-system
 roleRef:
   kind: ClusterRole
-  name: edit
+  name: cluster-admin
   apiGroup: rbac.authorization.k8s.io
